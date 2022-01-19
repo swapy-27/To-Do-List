@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/4f9766ea27.js" crossorigin="anonymous"></script>
+    <title>To-Do-List</title>
+</head>
+
+<body class="standard">
+    <header class="center">
+        <nav>
+            <button id="light" class="nav-button"
+                style=" background: linear-gradient(100deg, #d4f1ff, #ffffff);"></button>
+            <button id="dark" class="nav-button"
+                style=" background: linear-gradient(100deg, #001214, #001f29);"></button>
+            <button id="standard" class="nav-button"
+                style=" background: linear-gradient(100deg, #575656, #062e3f);"></button>
+        </nav>
+        <div id="body-header">
+            <div id="heading"><span>Just Do It !</span></div>
+
+            <div id="Date_Time">
+
+                <span id="date"></span>
+            </div>
+        </div>
+        <div id="input-data" class="center">
+            <div class="input center">
+                <input id="add" type="text" placeholder="Add a task">
+                <button class="task-submit">I Got This!</button>
+            </div>
+            <p>Total tasks : <span id="task-counter">0</span></p>
+        </div>
+    </header>
+
+
+    <main class="center">
+        
+            <ul id="list">
+                <!-- <li> 
+                  
+                     <input type ="checkbox" class="custom-checkbox"  id ="${task.id}" >
+                     <label  for ="${task.id}"> adasdasfdasfdeafahsvdhavdjhvajdfvajvfcajhsdvcf</label>
+                     <i class="fas fa-trash-alt" id='${task.id}'></i> 
+               </li> -->
+            </ul>
+       
+    </main>
+
+
+    <!-- <footer class="center">
+        <span>Made with Love By-- Swapnil Jain</span>
+    </footer> -->
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
